@@ -178,7 +178,7 @@
                     
                     this.modal.innerHTML = `
                         <button class="gc-api-close" aria-label="Close" title="Close">&times;</button>
-                        <div class="gc-api-header">GHOST CAPTCHA</div>
+                        <div class="gc-api-header">Stuffnest Captcha</div>
                         <div class="gc-api-subtitle">Find the hidden code in the static.</div>
                         
                         <div class="gc-api-canvas-container">
@@ -192,12 +192,11 @@
                             </button>
                         </div>
                         
-                        <button class="gc-api-btn-verify" id="gc-api-verify-element">VERIFY HUMAN</button>
+                        <button class="gc-api-btn-verify" id="gc-api-verify-element">Verify Human</button>
                         <div class="gc-api-error-msg" id="gc-api-error-element"></div>
                         
                         <div class="gc-api-footer">
-                            <span>Protected by GhostCaptcha API</span>
-                            <span>Privacy - Terms</span>
+                            <span>Protected by Stuffnest Captcha API</span>
                         </div>
                     `;
                     document.body.appendChild(this.modal);
